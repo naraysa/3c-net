@@ -2,7 +2,6 @@
 
 ## Overview
 This package is a PyTorch implementation of our paper [3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization](https://arxiv.org/abs/1908.08216), to be published at ICCV 2019.
-# 3C-Net
 
 ## Data
 We use the same I3D features, for the Thumos14 and ActivityNet 1.2 datasets, released by [Sujoy Paul](https://github.com/sujoyp/wtalc-pytorch). The annotations are already included in this repository. 
