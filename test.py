@@ -44,7 +44,7 @@ def test(itr, dataset, args, model, logger, device):
     instance_logits_stack = np.array(instance_logits_stack)
     labels_stack = np.array(labels_stack)
 
-    if args.dataset_name == 'Thumos14':
+    if args.dataset_name.find('Thumos14')!= -1 and args.num_class == 101:
         test_set = sio.loadmat('test_set_meta.mat')['test_videos'][0]
         bg_vid = 0
         for i in range(np.shape(labels_stack)[0]):
