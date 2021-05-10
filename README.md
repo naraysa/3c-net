@@ -19,10 +19,10 @@ python main.py --dataset-name ActivityNet1.2 --activity-net --num-class 100
 ## Citation
 Please cite the following work if you use this package.
 ```javascript
-@article{narayan20193cnet,
-  title={3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization},
-  author={Narayan, Sanath and Cholakkal, Hisham and Shahbaz Khan, Fahad and Shao, Ling},
-  journal={arXiv preprint arXiv:1908.08216},
+@inproceedings{narayan20193c,
+  title={3c-net: Category count and center loss for weakly-supervised action localization},
+  author={Narayan, Sanath and Cholakkal, Hisham and Khan, Fahad Shahbaz and Shao, Ling},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2019}
 }
 ```
